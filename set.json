@@ -1,8 +1,22 @@
 {
-    "TOKEN":"OTg1NTI3OTMzMDM0NjkyNjY4.GvhyPP.JVESvlbDrB-304QYi2gpjcM7wHOQLWd_Rg0hzU",
-    "Welcome":"985543350486728714",
-    "Leave":"985543375270866955",
-    "pic":["C:\\Users\\User\\Documents\\GitHub\\bbq_bot\\pic\\1.jpg","C:\\Users\\User\\Documents\\GitHub\\bbq_bot\\pic\\2.gif","C:\\Users\\User\\Documents\\GitHub\\bbq_bot\\pic\\3.png"],
-    "url":["https://grizzlybomb.files.wordpress.com/2015/12/bat-of-gotham-lead-in.jpg","https://tenor.com/bRNlK.gif","https://c.tenor.com/bpNa0N8YDtcAAAAd/%E5%93%88%E5%93%88-partydog.gif"],
-    "subject":["玩了","bbq","芭比q","q","Q"]
+    "TOKEN": "OTg1NTI3OTMzMDM0NjkyNjY4.GvhyPP.JVESvlbDrB-304QYi2gpjcM7wHOQLWd_Rg0hzU",
+    "Welcome": "985543350486728714",
+    "Leave": "985543375270866955",
+    "time": "1057",
+    "pic": [
+        "C:\\Users\\User\\Documents\\GitHub\\bbq_bot\\pic\\1.jpg",
+        "C:\\Users\\User\\Documents\\GitHub\\bbq_bot\\pic\\2.gif",
+        "C:\\Users\\User\\Documents\\GitHub\\bbq_bot\\pic\\3.png"
+    ],
+    "url": [
+        "https://grizzlybomb.files.wordpress.com/2015/12/bat-of-gotham-lead-in.jpg",
+        "https://tenor.com/bRNlK.gif",
+        "https://c.tenor.com/bpNa0N8YDtcAAAAd/%E5%93%88%E5%93%88-partydog.gif"
+    ],
+    "subject": [
+        "\u73a9\u62c9",
+        "bbq",
+        "q",
+        "Q"
+    ]
 }

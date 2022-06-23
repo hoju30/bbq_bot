@@ -3,14 +3,15 @@ import  discord
 from discord.ext import commands
 import json
 import os
+
 with open("set.json","r",encoding="utf8") as jfile:
     jdata=json.load(jfile)
 
-
 bot=commands.Bot(command_prefix="[")
 
+
 @bot.event
-async def on_ready():
+async def on_ready():#協程_當機器人上線
     print(">>bot is online<<")
 
 @bot.command()#上傳指令
@@ -27,10 +28,12 @@ async def reload(ctx,extension):
 async def unload(ctx,extension):
     bot.unload_extension(f"cmds.{extension}")
     await ctx.send(f"unloaded {extension} done.")
-
+    
 for Filename in  os.listdir("./cmds"):#列出所有資料夾下的文件不用一一在import
     if Filename.endswith(".py"):
         bot.load_extension(f"cmds.{Filename[:-3]}")#去掉".py"
+
+
 
 if __name__=="__main__":
     bot.run(jdata["TOKEN"])
